@@ -18,7 +18,14 @@ function plusMinus(arr) {
     const negativeRatio = negative / n;
     const zeroRatio = zero / n;
 
-    console.log(positiveRatio.toFixed(6));
-    console.log(negativeRatio.toFixed(6));
-    console.log(zeroRatio.toFixed(6));
+    const decimals = 6;
+
+    // Imprimir proporção de números positivos
+    console.log(positiveRatio.toFixed(decimals));
+    
+    // Imprimir proporção de números negativos
+    console.log(negativeRatio.toFixed(decimals));
+    
+    // Imprimir proporção de zeros
+    console.log(zeroRatio.toFixed(decimals));
 }
